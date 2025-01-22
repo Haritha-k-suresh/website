@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haritha K Suresh - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f3f4f6;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(45deg, #6a11cb, #2575fc);
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            margin: 1rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 2rem 1rem;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #2575fc;
+        }
+
+        .skills, .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .skills div, .hobbies div {
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(50% - 1rem);
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        footer a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .skills div, .hobbies div {
+                flex: 1 1 100%;
+            }
+
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Haritha K Suresh</h1>
+        <p>UI/UX Designer | AI & Data Science Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Haritha K Suresh, a passionate UI/UX designer with a love for creating seamless and beautiful user experiences. I also have a strong foundation in Artificial Intelligence and Data Science. When I'm not designing, you'll find me dancing or painting!</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div>UI/UX Design</div>
+            <div>Prototyping</div>
+            <div>HTML & CSS</div>
+            <div>JavaScript</div>
+            <div>Artificial Intelligence</div>
+            <div>Data Science</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>One of my notable projects is <strong>Devb.io</strong>, a platform designed to help developers create portfolios effortlessly. It reflects my passion for simplifying processes and making tools accessible for everyone.</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <div class="hobbies">
+            <div>Dancing</div>
+            <div>Painting</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:harithaksuresh6@gmail.com">harithaksuresh6@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/haritha-k-suresh-92a55b275/" target="_blank">Haritha K Suresh</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Haritha K Suresh. All rights reserved.</p>
+    </footer>
+</body>
+</html>
